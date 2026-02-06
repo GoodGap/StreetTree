@@ -16,14 +16,14 @@ const App: React.FC = () => {
   // 这里的图片链接可以替换为你上传到图床后的真实链接
   const IMAGES = {
     overview: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=1200", // 代表森林/树木
-    methodology: "https://placehold.co/800x600/f8fafc/64748b?text=Figure+2:+Methodology+Pipeline", 
-    distributions: "https://placehold.co/800x600/022c22/ecfdf5?text=Figure+3:+Statistical+Distributions",
-    cumulative: "https://placehold.co/800x600/022c22/ecfdf5?text=Cumulative+Growth+Curves",
-    occlusions: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=800", // 代表城市建筑
-    seasonal: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=800", // 代表季节变化
-    lighting: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=800", // 代表阳光/光影
-    ambiguity: "https://placehold.co/600x400/f8fafc/64748b?text=Visual+Ambiguity+Comparison",
-    segmentation: "https://placehold.co/600x400/f8fafc/64748b?text=Quality+Control+Masks"
+    methodology: "images\\intro.png", 
+    distributions: "images\\stats.png",
+    cumulative: "images\\longtail.png",
+    occlusions: "images\\occlutions.png", // 代表城市建筑
+    seasonal: "images\\seasonal.png", // 代表季节变化
+    lighting: "images\\lighting.png", // 代表阳光/光影
+    ambiguity: "images\\similar.png",
+    segmentation: "images\\binary.png"
   };
 
   return (
