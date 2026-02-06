@@ -5,13 +5,13 @@ export const PAPER_INFO: PaperData = {
   title: "StreetTree: A Large-Scale Global Benchmark for Fine-Grained Tree Species Classification",
   conference: "Accepted to CVPR 2026",
   authors: [
-    { name: "Anonymous Author", affiliationIndex: 1, link: "#" },
-    { name: "Anonymous Author", affiliationIndex: 1, link: "#" },
-    { name: "Anonymous Author", affiliationIndex: 2, link: "#" }
+    { name: "Jiapeng Li", affiliationIndex: 1, link: "#" },
+    { name: "Yingjing Huang", affiliationIndex: 1, link: "#" },
+    { name: "Fan Zhang", affiliationIndex: 1, link: "#" },
+    { name: "Yu Liu", affiliationIndex: 1, link: "#" }
   ],
   affiliations: [
-    { index: 1, name: "Department of Computer Science, University A" },
-    { index: 2, name: "AI Research Lab, Institute B" }
+    { index: 1, name: "School of Earth and Space Sciences, Peking University" }
   ],
   links: {
     pdf: "#",
