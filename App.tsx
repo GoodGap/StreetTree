@@ -16,14 +16,14 @@ const App: React.FC = () => {
   // 这里的图片链接可以替换为你上传到图床后的真实链接
   const IMAGES = {
     overview: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=1200", // 代表森林/树木
-    methodology: "images\\intro.png", 
-    distributions: "images\\stats.png",
-    cumulative: "images\\longtail.png",
-    occlusions: "images\\occlutions.png", // 代表城市建筑
-    seasonal: "images\\seasonal.png", // 代表季节变化
-    lighting: "images\\lighting.png", // 代表阳光/光影
-    ambiguity: "images\\similar.png",
-    segmentation: "images\\binary.png"
+    methodology: "/images/intro.png", 
+    distributions: "/images/stats.png",
+    cumulative: "/images/longtail.png",
+    occlusions: "/images/occlutions.png", // 代表城市建筑
+    seasonal: "/images/seasonal.png", // 代表季节变化
+    lighting: "/images/lighting.png", // 代表阳光/光影
+    ambiguity: "/images/similar.png",
+    segmentation: "/images/binary.png"
   };
 
   return (
