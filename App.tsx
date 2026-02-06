@@ -15,8 +15,8 @@ const App: React.FC = () => {
 
   // 这里的图片链接可以替换为你上传到图床后的真实链接
   const IMAGES = {
-    overview: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=1200", // 代表森林/树木
-    methodology: "/images/intro.png", 
+    overview: "/images/intro.png",
+    methodology: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=1200", 
     distributions: "/images/stats.png",
     cumulative: "/images/longtail.png",
     occlusions: "/images/occlutions.png", // 代表城市建筑
